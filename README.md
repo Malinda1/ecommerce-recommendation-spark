@@ -55,7 +55,7 @@ jupyter lab
 | # | Notebook | Author | Purpose | Key Output | Runtime |
 |---|----------|--------|---------|------------|---------|
 | 01 | `01_data_cleaning.ipynb` | Pasindu | Load raw CSV → HDFS → EDA → Clean → Save Parquet to HDFS | 779K cleaned records | 3–5 min |
-| 02 | `02_visualisation.ipynb` | Adeesha & Thaweesha | Load from HDFS → 7 EDA charts → Save PNGs + CSVs | 7 charts + 7 CSV files | 2–3 min |
+| 02 | `02_visualisation.ipynb` | Thaweesha | Load from HDFS → 7 EDA charts → Save PNGs + CSVs | 7 charts + 7 CSV files | 2–3 min |
 | 03 | `03_frequently_bought.ipynb` | Ishara | Spark SQL self-join → product pair co-occurrence analysis | Top 100 pairs with lift/support/confidence | 4–6 min |
 | 04 | `04_recommendations_system.ipynb` | Kevin | Item-based collaborative filtering recommendation engine | Recommendation chart + CSV | 3–5 min |
 | 05 | `05_purchasing_trends.ipynb` | Adeesha | Monthly/quarterly trends, AOV, country products, retention | 5 trend charts + 5 CSV files | 2–4 min |
